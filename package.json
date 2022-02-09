@@ -1,0 +1,36 @@
+{
+  "name": "anywhere-fitness-fe",
+  "version": "0.0.1",
+  "description": "react frontend for a fitness app concept",
+  "private": true,
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "jest --watchAll"
+  },
+  "author": "Lance Turbes",
+  "license": "MIT",
+  "source": "src/index.html",
+  "engines": {
+    "node": ">= 16"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "parcel": "^2.2.1"
+  }
+}
