@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { render } from "@testing-library/react";
-import Navbar from "../../components/Navbar.jsx";
+import NavBar from "../../components/NavBar.jsx";
 
-describe("Navbar Component", () => {
+describe("NavBar Component", () => {
   it("renders without errors", () => {
     render(
       <Router>
-        <Navbar />
+        <NavBar />
       </Router>
     );
   });

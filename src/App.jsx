@@ -1,17 +1,16 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar.jsx";
+import HomePage from "./pages/HomePage.jsx";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <>
+      <NavBar />
       <Routes>
-        <Route path="lorem" element={<p>Lorem</p>} />
-        <Route path="ipsum" element={<p>Ipsum</p>} />
-        <Route index element={<></>} />
+        <Route index element={<HomePage />} />
       </Routes>
-    </div>
+    </>
   );
 };
 
