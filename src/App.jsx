@@ -5,12 +5,12 @@ import HomePage from "./pages/HomePage.jsx";
 
 const App = () => {
   return (
-    <div>
+    <>
       <NavBar />
       <Routes>
         <Route index element={<HomePage />} />
       </Routes>
-    </div>
+    </>
   );
 };
 
